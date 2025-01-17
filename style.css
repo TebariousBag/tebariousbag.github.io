@@ -135,3 +135,12 @@ nav a:hover {
 .footer-text {
 	color: rgb(255, 255, 255);
 }
+
+.Karliah {
+	border: 6px solid rgb(0, 0, 0);
+}
+
+/* Karliah hover swap image */
+.Karliah:hover {
+	content: url("images/karliah3.png");
+}
