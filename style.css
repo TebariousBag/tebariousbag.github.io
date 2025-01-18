@@ -151,4 +151,6 @@ nav a:hover {
 .dog-kennel {
 	cursor: url("images/hand.png"), auto;
 	display: inline-block;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
