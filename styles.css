@@ -1,0 +1,785 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
+
+
+.header {
+	display: flex;
+	justify-content: center;
+	background-image: url("images/pic_1.jpg");
+	width: 1440px;
+	height: 1093px;
+	align-items: center;
+}
+/* USE THIS FORMAT FOR REFERENCE ON GETTING THE REST SETUP */
+.header_div	{
+	display: flex;
+	position: absolute;
+	flex-direction: row;
+	justify-content: center;
+	color: white;
+	width: 1103.41px;
+	height: 29.46px;
+	margin-top: 35.02px;
+	margin-left: 171.59px;
+	position: relative; /* make container relative, and position insides at absolute */
+	
+}
+
+.header_logo {
+	position: absolute; /* same as above comment, set the inside content to absolute */
+	/* then take the top and left from Figma, and apply here */
+	left: 0px; /* changed to 0px since the parent container is already where it needs to be */
+	top: 35.02px;
+	width: 167.02px;
+	height: 29.46px;
+}
+
+.nav_bar {
+	position: absolute;
+	left: 873.98px; /* might be an easier way to do this, but i'm subtracting the left here from the left of the of the parent container */
+	top: 37px;
+	width: 234px;
+	height: 15px;
+	text-decoration: none;
+	color: white;
+}
+
+.courses {
+	position: absolute;
+	left: 0px;
+	width: 50px;
+	height: 15px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 15.08px;
+	text-decoration: none;
+	color: white;
+}
+
+.pricing {
+	position: absolute;
+	left: 102px;
+	width: 45px;
+	height: 15px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 15.08px;
+	text-decoration: none;
+	color: white;
+}
+
+.login {
+	position: absolute;
+	left: 200px;
+	width: 34px;
+	height: 15px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 15.08px;
+	text-decoration: none;
+	color: white;
+}
+
+/* START OF BANNER */
+
+.banner {
+	display: flex;
+	flex-direction: column;
+	margin-top: 0px;
+	width: 1440px;
+	height: 1093px;
+	justify-content: center;
+	color: white;
+}
+
+.register_section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.get_schooled {
+	font-family: 'Source Sans Pro', sans-serif;
+	position: absolute;
+	top: 125px;
+	left: 387px;
+	width: 684px;
+	height: 151px;
+	font-weight: 700;
+	font-size: 120px;
+	line-height: 150.84px;
+}
+
+.smiles {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20.11px;
+	position: absolute;
+	top: 346px;
+	left: 598px;
+	width: 52px;
+	height: 20px;
+}
+
+.grin {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20.11px;
+	position: absolute;
+	top: 346px;
+	left: 709px;
+	width: 36px;
+	height: 20px;
+}
+
+.laugh {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20.11px;
+	position: absolute;
+	top: 346px;
+	left: 802px;
+	width: 49px;
+	height: 20px;
+}
+
+.button_1 {
+	position: absolute;
+	background-color: #C271FF;
+	color: white;
+	width: 162px;
+	height: 44px;
+	top: 419px;
+	left: 639px;
+	border-radius: 50px;
+	border: none;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 17.6px;
+	box-shadow: 0px 2px 20px 0px #00000080; /* for future, x offset, y offset, blur radius, spread */
+	cursor: pointer;
+}
+
+/* span html tag of just the word Learn */
+.Learn {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	color: #C271FF;
+}
+
+.learn {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 32px;
+	line-height: 40.22px;
+	position: absolute;
+	top: 605px;
+	left: 600px;
+	width: 261px;
+	height: 40px;
+}
+
+.learn_from_pros {
+	text-align: center;
+	justify-content: center;
+	margin-top: 40px;
+	width: 100%;
+}
+
+/* STARTING PROFILE PHOTO SECTION */
+
+.profile_container	{
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	position: relative;
+}
+
+/* rounding all profile images */
+.profile_images {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+.profile1 {
+	display: flex;
+	position: absolute;
+	width: 150px;
+	height: 237px;
+	top: 160px;
+	left: 217px;
+}
+
+.profile2 {
+	display: flex;
+	position: absolute;
+	width: 160px;
+	height: 237px;
+	top: 160px;
+	left: 506px;
+}
+
+.profile3 {
+	display: flex;
+	position: absolute;
+	width: 150px;
+	height: 237px;
+	top: 160px;
+	left: 787px;
+}
+
+.profile4 {
+	display: flex;
+	position: absolute;
+	width: 150px;
+	height: 237px;
+	top: 160px;
+	left: 1076px;
+}
+
+.profile_name {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 27px;
+	position: absolute;
+	top: 145px;
+	left: 0px;
+	text-align: center;
+	width: 150px;
+}
+
+.awards {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	font-style: italic;
+	line-height: 24px;
+	position: absolute;
+	top: 170px;
+	left: 0px;
+	text-align: center;
+	width: 150px;
+}
+
+/* END OF HEADER */
+
+/* START OF QUOTE SECTION */
+
+.quote_section {
+	display: flex;
+	position: relative;
+	justify-content: center;
+	width: 1440px;
+	height: 392px;
+	background-color: #C271FF;
+	color: white;
+	top: 0px;
+	left: 0px;
+}
+
+.quote_div {
+	display: flex;
+	flex-direction: row;
+	color: white;
+	padding: 20px;
+	align-items: center;
+	text-align: left;
+}
+
+.quote_img {
+	display: flex;
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	left: 250px;
+	align-items: center;
+}
+
+.quote_text {
+	display: flex;
+	position: absolute;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 33.6px;
+	width: 820px;
+	height: 68px;
+	left: 420px;
+	top: 100px;
+	margin: 0;
+	padding: 0;
+}
+
+.person_name {
+	display: flex;
+	position: absolute;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 33.6px;
+	width: 129px;
+	height: 34px;
+	top: 80px;
+	left: 38px;
+}
+
+.weather_presenter {
+	display: flex;
+	position: absolute;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 22px;
+	font-style: italic;
+	line-height: 33.6px;
+	width: 195px;
+	height: 34px;
+	top: 110px;
+	left: 38px;
+}
+
+/* END OF QUOTE SECTION */
+/* START OF VIDEO SECTION */
+
+.video_section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 1440px;
+	height: auto;
+	background-color: #ffffff;
+	color: #071629;
+	align-items: center;
+}
+
+.h1_videos {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 32px;
+	line-height: 40.22px;
+	color:  #071629;
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+
+.popular {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 40.22px;
+	color: #C271FF;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+
+.video_div {
+	display: flex;
+	flex-direction: row;
+	color: #071629;
+	width: 1228px;
+	height: 450px;
+	height: auto;
+	padding: 0px;
+}
+
+.div_vid {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	color: #071629;
+	width: 350px;
+	height: 450px;
+	padding: 20px;
+	margin-top: 50px;
+}
+
+.overlay_play {
+	display: flex;
+	position: absolute;
+	width: 64px;
+	height: 64px;
+	top: 65px;
+	left: 112px;
+	background-color: rgba(0, 0, 0, .0);
+}
+
+.pic_name {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-left: 10px;
+}
+
+.name_phillip {
+	display: flex;
+	position: absolute;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #C271FF;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 27px;
+	width: 86px;
+	height: 27px;
+	left: 66px;
+	margin-left: 10px;
+}
+
+.smile_h2 {
+	display: flex;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #071629;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20.11px;
+	width: 106px;
+	height: 20px;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.lorem_p {
+	display:flex;
+	position: relative;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: rgba(7, 22, 41, 0.5);
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	width: 242px;
+	height: 48px;
+	margin-top: 0px;
+	margin-left: 10px;
+
+}
+
+.ratings {
+	display: flex;
+	align-items: center;
+	margin-left: 10px;
+}
+
+.stars_container {
+	display: flex;
+	position: absolute;
+	flex-direction: row;
+	top: 335px;
+}
+
+.time {
+	display: flex;
+	position: absolute;
+	width: 34px;
+	height: 27px;
+	top: 315px;
+	left: 220px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #C271FF;
+	font-weight: 600px;
+	font-size: 14px;
+	line-height: 27px;
+}
+
+.smile_imgs {
+	width: 255px;
+	height: 154px;
+}
+
+.little_portraits {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+
+.stars {
+	width: 15px;
+	height: 15px;
+	padding-right: 10px;
+}
+
+/* end of video section */
+/* start of members section */
+
+.members_section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 1440px;
+	height: 502px;
+	background-color: #071629;
+	;
+	color: #071629;
+	align-items: center;
+}
+
+.h1_members {
+	text-align: center;
+	justify-content: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 32px;
+	line-height: 40.22px;
+	color:  white;
+	margin-bottom: 20px;
+	margin-top: 75px;;
+}
+
+.free {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 40.22px;
+	color: #C271FF;
+	line-height: 40.22px;
+}
+
+.members_div_container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 257px;
+	height: 153px;
+}
+.members_div {
+	display: flex;
+	flex-direction: column;
+	color: white;
+	align-items: center;
+	margin-top: -20px;
+	margin-left: center;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 40px;
+}
+
+.smiley_imgs {
+	width: 43.67px;
+	height: 35.35px;
+}
+
+.lorem_h2 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 26px;
+	color: white;
+	margin-top: 20px;
+	width: 256px;
+	height: 26px;
+}
+
+.member_p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 26px;
+	color: white;
+	margin-top: 0px;
+	width: 212px;
+	height: 52px;
+}
+
+.button_2 {
+	background-color: #C271FF;
+	color: white;
+	width: 162px;
+	height: 44px;
+	border-radius: 22px;
+	border: none;
+	margin-top: auto;
+	margin-left: center;
+	margin-bottom: 60px;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 17.6px;
+	cursor: pointer;
+}
+
+/* end of members section */
+/* start of faq section */
+
+.faq_section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 1440px;
+	height: auto;
+	background-color: #ffffff;
+	color: #071629;
+	align-items: center;
+}
+
+.faq_header {
+	text-align: center;
+	justify-content: center;
+	font-family: 'source sans pro', sans-serif;
+	font-weight: 300;
+	font-size: 60px;
+	line-height: 75.42px;
+	color:  #071629;
+	margin-top: 75px;
+	margin-bottom: 20px;
+	width: 136px;
+	height: 75px;
+}
+
+.faq_h2 {
+	text-align: left;
+	justify-content: center;
+	font-family: 'source sans pro', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20.11px;
+	color:  #071629;
+	margin-bottom: 20px;
+}
+
+.faq_p {
+	text-align: left;
+	white-space: normal;
+	margin-top: 20px;
+	justify-content: center;
+	font-family: 'source sans pro', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color:  rgba(7, 22, 41, 0.5);
+	width: 405px;
+	height: 192px;
+}
+
+.faq_container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #071629;
+	width: 920px;
+	height: 707;
+	padding: 20px;
+	text-align: left;
+	margin-top: 40px;
+}
+.faq_div {
+	display: flex;
+	flex-direction: column;
+	margin-right: 200px;
+	margin-bottom: 100px;
+}
+.faq_row1 {
+	display: flex;
+	flex-direction: row;
+	color: #071629;
+	width: 1228px;
+	height: auto;
+	padding: 0px;
+	text-align: left;
+	margin-right: 0px;
+	margin-left: 200px;
+}
+
+.faq_row2 {
+	display: flex;
+	flex-direction: row;
+	color: #071629;
+	width: 1228px;
+	height: auto;
+	padding: 0px;
+	text-align: left;
+	margin-right: 0px;
+}
+
+/* end of faq section */
+/* start of footer section */
+
+.footer_container {
+	display: flex;
+	position: absolute;
+	flex-direction: column;
+	justify-content: center;
+	color: white;
+	background-color: #071629;
+	width: 1440px;
+	height: 249px;
+	margin-top: 0px;
+	position: relative; /* make container relative, and position insides at absolute */
+}
+.footer {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	background-color: #071629;
+	width: 1440px;
+	height: 249px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer_logo {
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	top: 100px;
+	left: 200px;
+}
+
+.footer_links {
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	top: 100px;
+	left: 1100px;
+}
+
+.facebook {
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.twitter {
+	display: flex;
+	position: absolute;
+	top: 0px;
+	left: 50px;
+}
+
+.instagram {
+	display: flex;
+	position: absolute;
+	top: 0px;
+	left: 100px;
+}
+
+.copyright {
+	display: flex;
+	position: absolute;
+	width: 96px;
+	height: 15px;
+	color: rgb(132, 125, 125);
+	align-items: center;
+	text-align: center;
+	font-weight: 400;
+	font-size: 12px;
+	top: 180px;
+	left: 670px;
+}
